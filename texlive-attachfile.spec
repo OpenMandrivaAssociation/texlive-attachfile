@@ -1,3 +1,9 @@
+# revision 21866
+# category Package
+# catalog-ctan /macros/latex/contrib/attachfile
+# catalog-date 2011-03-28 07:44:29 +0200
+# catalog-license lppl1.3
+# catalog-version v1.5b
 Name:		texlive-attachfile
 Version:	v1.5b
 Release:	1
@@ -53,6 +59,7 @@ EmbeddedFile's Params dictionary.
 #- source
 %doc %{_texmfdistdir}/source/latex/attachfile/attachfile.dtx
 %doc %{_texmfdistdir}/source/latex/attachfile/attachfile.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -63,3 +70,5 @@ EmbeddedFile's Params dictionary.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
