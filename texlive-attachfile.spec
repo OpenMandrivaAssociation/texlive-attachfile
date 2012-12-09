@@ -59,3 +59,18 @@ EmbeddedFile's Params dictionary.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> v1.5b-2
++ Revision: 749389
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> v1.5b-1
++ Revision: 717866
+- texlive-attachfile
+- texlive-attachfile
+- texlive-attachfile
+- texlive-attachfile
+- texlive-attachfile
+
