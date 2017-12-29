@@ -5,8 +5,8 @@
 # catalog-license lppl1.3
 # catalog-version v1.5b
 Name:		texlive-attachfile
-Version:	v1.5b
-Release:	10
+Version:	1.9
+Release:	1
 Summary:	Attach arbitrary files to a PDF document
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/attachfile
