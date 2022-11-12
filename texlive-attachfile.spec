@@ -5,9 +5,9 @@ Summary:	Attach arbitrary files to a PDF document
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/attachfile
 License:	LPPL1.3
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/attachfile.r42099.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/attachfile.doc.r42099.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/attachfile.source.r42099.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/attachfile.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/attachfile.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/attachfile.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
