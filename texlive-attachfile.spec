@@ -1,6 +1,6 @@
 Name:		texlive-attachfile
 Version:	42099
-Release:	1
+Release:	2
 Summary:	Attach arbitrary files to a PDF document
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/attachfile
