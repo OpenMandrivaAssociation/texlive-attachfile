@@ -3,7 +3,7 @@ Version:	42099
 Release:	2
 Summary:	Attach arbitrary files to a PDF document
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/attachfile
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/attachfile
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/attachfile.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/attachfile.doc.r%{version}.tar.xz
